@@ -37,4 +37,32 @@
     --color-shadow:rgba(0, 0, 0, 0.16);
     --team--text:rgba(117, 117, 117, 1);
    
-  }  
+  } 
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;}
+    
+  h2 h3 p {
+    list-style: none;
+  }
+  .container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box; 
+  }
+  
+  
+   *,
+    *::before,
+    *::after {box-sizing: inherit;}
+  
+  
+  .section {
+    padding: 94px 0;  
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+    }
